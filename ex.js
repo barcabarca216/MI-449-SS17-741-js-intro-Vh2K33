@@ -1,6 +1,6 @@
 var myAudio = new Audio("snare.wav");
-var myAudio2 = new Audio("tom.wav");
-var myAudio3 = new Audio("boom.wav");
+myAudio2 = new Audio("tom.wav");
+myAudio3 = new Audio("boom.wav");
 
 
 var buttonElement = document.getElementById("snare")
