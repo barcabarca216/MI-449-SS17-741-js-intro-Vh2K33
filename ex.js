@@ -1,24 +1,24 @@
 var myAudio = new Audio("snare.wav");
-myAudio2 = new Audio("tom.wav");
-myAudio3 = new Audio("boom.wav");
+var myAudio2 = new Audio("tom.wav");
+var myAudio3 = new Audio("boom.wav");
 
 
-var buttonElement = document.getElementById("snare")
-buttonElement.addEventListener('click', function () {
+var snarebutton = document.getElementById("snare")
+snarebutton.addEventListener('click', function () {
 myAudio.play();})
-buttonElement.addEventListener('mouseover', function () {
+snarebutton.addEventListener('mouseover', function () {
 myAudio.play();})
 
 
-var buttonElement = document.getElementById("tom")
-buttonElement.addEventListener('click', function () {
+var tombutton = document.getElementById("tom")
+tombutton.addEventListener('click', function () {
 myAudio2.play();})
-buttonElement.addEventListener('mouseover', function () {
+tombutton.addEventListener('mouseover', function () {
 myAudio2.play();})
 
 
-var buttonElement = document.getElementById("boom")
-buttonElement.addEventListener('click', function () {
+var boombutton = document.getElementById("boom")
+boombutton.addEventListener('click', function () {
 myAudio3.play();})
-buttonElement.addEventListener('mouseover', function () {
+boombutton.addEventListener('mouseover', function () {
 myAudio3.play();})
